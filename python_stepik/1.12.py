@@ -111,16 +111,27 @@
 #         and (number_of_developers_int % 100) != 13 and (number_of_developers_int % 100) != 14:
 #     print(number_of_developers + core + end_2)
     
+# Task_7
+# ticket_number = int(input())
+# three = (ticket_number // 1000) % 10
+# two = (ticket_number // 10000) % 10
+# one = (ticket_number // 100000) % 10
+# sum_of_three = one + two + three
+# minus_one = ticket_number % 10
+# minus_two = (ticket_number % 100) // 10
+# minus_three = (ticket_number % 1000) // 100
+# sum_of_last_three = minus_one + minus_two + minus_three
+# if sum_of_three == sum_of_last_three:
+#     print('Счастливый')
+# else:
+#     print('Обычный')
 
-
-
-
-# number = int(input())
-# lastDigit = number % 10
-# lastTwoDigits = number % 100
-# if number == 0 or 5 <= lastTwoDigits <= 19 or lastDigit == 0 or 5 <= lastDigit <= 9:
-#     print(str(number) + " " + "программистов")
-# elif lastDigit == 1:
-#     print(str(number) + " " + "программист")
-# elif 2 <= lastDigit <= 4:
-#     print(str(number) + " " + "программиста")
+# Task_7 another way
+# ticket_number = input()
+# ticket_number_int = int(ticket_number)
+# sum_last_three_digits = ticket_number_int // 10**0 % 10 + ticket_number_int // 10**1 % 10 + ticket_number_int // 10**2 % 10
+# sum_first_three_digits = int(ticket_number[0]) + int(ticket_number[1]) + int(ticket_number[2])
+# if sum_first_three_digits == sum_last_three_digits:
+#     print("Счастливый")
+# else:
+#     print("Обычный")
