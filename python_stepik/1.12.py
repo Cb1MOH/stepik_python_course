@@ -96,23 +96,24 @@
 #         print(b)
 
 # Task_6
-numberOfDevelopers = input()
-core = ' программист'
-end1 = ''
-end2 = 'а'
-end3 = 'ов'
-if int(numberOfDevelopers) == 1:
-    print(numberOfDevelopers + core)
-elif int(numberOfDevelopers) == 2 or int(numberOfDevelopers) == 3 or int(numberOfDevelopers) == 4:
-    print(numberOfDevelopers + core + end2)
-elif 5 <= int(numberOfDevelopers) <= 20 or int(numberOfDevelopers) == 0:
-    print(numberOfDevelopers + core + end3)
-elif int(numberOfDevelopers[-1]) == 0 or int(numberOfDevelopers[-1]) == 5 or int(numberOfDevelopers[-1]) == 6 or int(numberOfDevelopers[-1]) == 7 or int(numberOfDevelopers[-1]) == 8 or int(numberOfDevelopers[-1]) == 9:
-    print(numberOfDevelopers + core + end3)
-elif int(numberOfDevelopers[-1]) == 1:
-    print(numberOfDevelopers + core)
-elif int(numberOfDevelopers[-1]) == 2 or int(numberOfDevelopers[-1]) == 3 or int(numberOfDevelopers[-1]) == 4:
-    print(numberOfDevelopers + core + end2)
+# number_of_developers = input()
+# number_of_developers_int = int(number_of_developers)
+# core = ' программист'
+# end_1 = ''
+# end_2 = 'а'
+# end_3 = 'ов'
+# if number_of_developers_int % 10 == 0 or 5 <= (number_of_developers_int % 10) <= 9 \
+#         or 10 <= number_of_developers_int <= 19 or 11 <= (number_of_developers_int % 100) <= 19:
+#     print(number_of_developers + core + end_3)
+# elif number_of_developers_int % 10 == 1 and number_of_developers_int % 100 != 11:
+#     print(number_of_developers + core)
+# elif 2 <= (number_of_developers_int % 10) <= 4 and (number_of_developers_int % 100) != 12 \
+#         and (number_of_developers_int % 100) != 13 and (number_of_developers_int % 100) != 14:
+#     print(number_of_developers + core + end_2)
+    
+
+
+
 
 # number = int(input())
 # lastDigit = number % 10
