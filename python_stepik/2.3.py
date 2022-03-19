@@ -23,3 +23,26 @@
 #         sum += i
 #     print(i)
 # print(sum)
+
+# a, b = input().split()
+# a = int(a)
+# b = int(b)
+# s = 0
+# if a % 2 != 1:
+#     a += 1
+# for i in range(a, b + 1, 2):
+#     s += i
+# print(s)
+
+# Task_2
+# a = int(input())
+# b = int(input())
+# # a, b = (float(i) for i in input().split())
+# s = 0
+# count = 0
+# while a % 3 != 0:
+#     a += 1
+# for i in range(a, b + 1, 3):
+#     s += i
+#     count += 1
+# print(s / count)
