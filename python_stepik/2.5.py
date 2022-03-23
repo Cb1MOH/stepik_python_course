@@ -27,3 +27,15 @@
 #     for i in b:
 #         c = c + str(i) + ' '
 #     print(c)
+
+# Task_3
+# a = [int(i) for i in input().split()]
+# a.sort()
+# i = 0
+# dupl = []
+# for i in range(len(a) - 1):
+#     if a[i] == a[i + 1] and a[i] not in dupl:
+#         dupl.append(a[i])
+#         i = i + 1
+# for i in dupl:
+#     print(i, end=' ')
