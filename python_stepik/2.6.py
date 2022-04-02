@@ -48,6 +48,17 @@
 #             for j in i:
 #                 result.append(j)
 #     print(*result[:inpt])
-    # print(start_list)
-    # print(sorted_list)
-    # print(sorted_list_of_lists)
+
+# Task_3
+# lst = [int(i) for i in input().split()]
+# upd_lst = lst
+# x = int(input())
+# lst_of_indx = []
+# if x not in lst:
+#     print('Отсутствует')
+# while x in upd_lst:
+#     indx = upd_lst.index(x)
+#     lst_of_indx.append(indx)
+#     upd_lst.insert(indx, 0)
+#     del upd_lst[indx + 1]
+# print(*lst_of_indx)
