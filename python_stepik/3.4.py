@@ -23,5 +23,4 @@
 #     for i in char:
 #         general += i * num_list[index]
 #         index += 1
-#
 #     print(general)
