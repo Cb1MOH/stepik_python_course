@@ -7,9 +7,7 @@
 
 
 # Task_2
-import sys
-
-
-result = ''
-result.join(sys.argv[1:])
-print(result)
+# import sys
+# arg_list = sys.argv[1:]
+# for i in arg_list:
+#     print(i, end=" ")
