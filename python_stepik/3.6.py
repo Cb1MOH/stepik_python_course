@@ -3,9 +3,12 @@ import requests
 # r = requests.get('http://example.com')
 # print(r.text)
 
-url = 'http://httpbin.org/cookies'
-cookies = {'cookies_are': 'working'}
-r = requests.get(url, cookies=cookies)
-
-print(r.text)
-print(r.cookies[''])
+# Task 1
+# url = "https://stepic.org/media/attachments/course67/3.6.2/833.txt"
+# r = requests.get(url)
+# text = r.text
+# text_list = text.splitlines()
+#
+# print(text)
+# print(text_list)
+# print(len(text_list))
